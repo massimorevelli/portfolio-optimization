@@ -48,19 +48,11 @@ prices = stocks_data{:,2:end};
 
 
 if ~isdatetime(dates)
-    try
-        dates = datetime(dates);
-    catch
-        dates = datetime(dates,'ConvertFrom','excel');
-    end
+    dates = datetime(dates);
 end
 
 if ~isdatetime(ff.Date)
-    try
-        ff.Date = datetime(ff.Date);
-    catch
-        ff.Date = datetime(ff.Date,'ConvertFrom','excel');
-    end
+    ff.Date = datetime(ff.Date);
 end
 
 
