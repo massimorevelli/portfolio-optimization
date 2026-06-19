@@ -14,6 +14,12 @@ These files are created by running `fetch_data.py`, after which the MATLAB pipel
 
 For the mathematical formulation, see [math.pdf](math.pdf).
 
+<p align="center">
+  <img src="outputs/figures/4_frontier_riskfree_assets.png" alt="Efficient Frontier" width="48%">
+  <img src="outputs/figures/4_tangency_composition.png" alt="Tangency Portfolio Composition" width="48%">
+</p>
+
+
 ### Usage
 
 Tested on Python 3.12.2 / MATLAB R2024b
