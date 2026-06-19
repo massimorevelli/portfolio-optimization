@@ -69,7 +69,6 @@ All outputs are saved inside `outputs/`:
 - **v1.1 (WIP)** - Robustness improvements and portfolio constraints
   - Ridge regression option for factor betas (numerical stability)
   - Long-only constraints via `quadprog`
-  - Python script improvements (error handling, retries/backoff for downloads)
 
 - **v1.2 (planned)** - Backtesting and diagnostics
   - IS/OOS evaluation
