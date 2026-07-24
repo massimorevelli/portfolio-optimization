@@ -59,17 +59,16 @@ All outputs are saved inside `outputs/`:
 
 ### Changelog
 
-- **v1.0 (current)** - Initial release
+- **v1.0 (current)**
   - Automated data collection and import
   - FF3 expected returns (with optional alpha)
   - Efficient frontier (closed form), GMV portfolio
   - Tangency portfolio, Capital Market Line
   - Plots + CSV exports
 
-- **v1.1 (WIP)** - Robustness improvements and portfolio constraints
+- **v1.1 (WIP)**
   - Ridge regression option for factor betas (numerical stability)
   - Long-only constraints via `quadprog`
-
-- **v1.2 (planned)** - Backtesting and diagnostics
   - IS/OOS evaluation
   - Turnover and drawdown metrics
+
