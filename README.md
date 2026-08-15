@@ -1,8 +1,6 @@
+# Markowitz Mean-Variance Optimization
 
-
-## Markowitz Mean-Variance Optimization
-
-### Overview
+## Overview
 
 This project implements a Markowitz mean-variance portfolio optimization pipeline in MATLAB, using real-world daily prices of ~90 stocks in the S&P 100 for the years 2013-2019.
 
@@ -20,7 +18,7 @@ For the mathematical formulation, see [math.pdf](math.pdf).
 </p>
 
 
-### Usage
+## Usage
 
 Tested on Python 3.12.2 / MATLAB R2024b
 
@@ -37,7 +35,8 @@ Workflow:
 Running the two scripts should reproduce all tables and figures in `outputs/`.
 
 
-### Outputs
+## Outputs
+
 All outputs are saved inside `outputs/`:
 
 #### Tables (`outputs/tables/`)
@@ -57,7 +56,7 @@ All outputs are saved inside `outputs/`:
 - **`6_tangency_composition.png`** – Tangency portfolio composition (long/short weights)
 
 
-### Changelog
+## Changelog
 
 - **v1.0 (current)**
   - Automated data collection and import
